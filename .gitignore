@@ -1,2 +1,50 @@
-lib/
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# ==== Virtualenv ====
+.venv/
 venv/
+ENV/
+env/
+
+# ==== PyInstaller / build artifacts ====
+build/
+dist/
+*.spec.bak
+*.manifest
+*.log
+
+# ==== Packaging ====
+*.egg-info/
+*.egg
+*.whl
+
+# ==== IDE ====
+.vscode/
+.idea/
+*.iml
+
+# ==== OS ====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==== Local secrets / configs (권장) ====
+.env
+.env.*
+setting/*.local.*
+setting/*secret*
+setting/*token*
+setting/*cookie*
+
+# ==== Runtime data (선택) ====
+data/*.log
+data/*.tmp
+data/output/
